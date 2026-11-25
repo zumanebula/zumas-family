@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Part 4 · For Adalin</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="passbook.js" defer></script>
+  <script src="diamond.js" defer></script>
+</head>
+<body class="story-page">
+  <header class="shell site-header">
+    <a class="brand" href="index.html">For Adalin ♡</a>
+    <nav aria-label="Birthday pages">
+      <a href="index.html">Home</a>
+      <a href="gift-1.html">Part 1</a>
+      <a href="gift-2.html">Part 2</a>
+      <a href="gift-3.html">Part 3</a>
+      <a href="diamond.html" aria-current="page">Part 4</a>
+    </nav>
+  </header>
+  <main class="shell">
+    <section class="hero diamond-hero" aria-labelledby="page-title">
+      <img class="diamond-image" src="pics/ready%20Mansion%20Picnic%20with%20Regal%20Fluffy%20Cats.png"
+           width="1536" height="1024" alt="Fluffy cats having a picnic at the mansion.">
+      <div>
+        <p class="eyebrow">Part 4</p>
+        <h1 id="page-title" lang="zh-Hans">领取你的<br>ring shopping plan</h1>
+        <form id="diamond-picker">
+          <fieldset aria-label="Diamond plans" aria-describedby="shared-plan">
+            <div class="choices">
+              <label>
+                <input type="radio" name="plan" value="0.5克拉nature diamond + 10 years 2克拉nature diamond" required>
+                <span class="choice">
+                  <strong lang="zh-Hans">0.5克拉 Nature Diamond</strong>
+                </span>
+              </label>
+              <label>
+                <input type="radio" name="plan" value="2克拉artificial diamond + 10 years 2克拉nature diamond">
+                <span class="choice">
+                  <strong lang="zh-Hans">2.0克拉 Artificial Diamond</strong>
+                </span>
+              </label>
+            </div>
+            <details class="diamond-passbook" lang="zh-Hans">
+              <summary id="shared-plan">+ 钻石存折 <small>: 10 Years Diamond Plan</small></summary>
+              <div class="passbook-details">
+                <p>如果求婚成功，从求婚日起，每月存入：</p>
+                <dl>
+                  <div><dt>固定存款</dt><dd>$100</dd></div>
+                  <div><dt>戒烟省下</dt><dd>～$60</dd></div>
+                  <div><dt>每月合计</dt><dd>～$160</dd></div>
+                </dl>
+                <p class="passbook-assumption">年利率 4% 按月复利 10年整</p>
+                <dl>
+                  <div><dt>存入本金</dt><dd id="passbook-principal">$19,200.00</dd></div>
+                  <div><dt>复利收益</dt><dd id="passbook-interest">$4,359.97</dd></div>
+                  <div><dt>10 年存折余额</dt><dd id="passbook-balance">$23,559.97</dd></div>
+                  <div><dt>Match（余额 × 2）<br></dt><dd id="passbook-budget">$47,119.94</dd></div>
+                </dl>
+                <p>把二氧化碳变成真碳 ♡</p>
+              </div>
+            </details>
+          </fieldset>
+          <div class="actions">
+            <button class="button" type="submit">Save &amp; Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="shell site-footer story-footer">
+    <span class="signature">Love, Alvin ♡</span>
+    <nav class="story-controls story-controls--final" aria-label="Part navigation">
+      <a class="button secondary" href="gift-3.html">Previous</a>
+    </nav>
+  </footer>
+</body>
+</html>
