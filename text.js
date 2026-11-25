@@ -11,7 +11,7 @@ document.querySelector("#close-preview").addEventListener("click", () => {
 
 async function createCard(choice) {
   const art = new Image();
-  art.src = "pics/ready%20Cool%20Bear%E2%80%99s%20GR%20Corolla%20Proposal.png";
+  art.src = "../pics/birthday-confirmation-page.jpeg";
   await art.decode();
   await document.fonts.ready;
 
