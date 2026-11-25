@@ -65,8 +65,8 @@ async function createCard(choice) {
     ["每月底存入（固定 $100 + 戒烟约 $60）", `$${diamondPassbook.monthlyDeposit}`],
     ["存入本金", diamondPassbook.principal],
     ["复利收益", diamondPassbook.interest],
-    ["10 年存折余额", diamondPassbook.balance],
-    ["After Match", diamondPassbook.budget],
+    ["10年存折余额", diamondPassbook.balance],
+    ["After x2 Match", diamondPassbook.budget],
   ];
 
   entries.forEach(([label, amount], index) => {
