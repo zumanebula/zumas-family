@@ -1,3 +1,3 @@
 # zumas-family
 
-[zumanebula.github.io/zumas-family/](zumanebula.github.io/zumas-family/)
+https://zumanebula.github.io/zumas-family/
