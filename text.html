@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>confirmation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="passbook.js" defer></script>
+  <script src="text.js" defer></script>
+</head>
+<body>
+  <main class="shell share-page">
+    <header class="site-header">
+      <h1 lang="en">confirmation</h1>
+      <button class="button secondary" type="button" id="close-preview">关闭</button>
+    </header>
+    <div class="actions share-actions">
+      <button class="button" type="button" id="share-jpg" hidden>分享 JPG</button>
+      <a class="button secondary" id="download-jpg" download="diamond-passbook.jpg" hidden>下载 JPG</a>
+    </div>
+    <p id="share-status" role="status">正在生成 JPG…</p>
+    <img id="share-preview" width="1200" height="1800" alt="" hidden>
+  </main>
+</body>
+</html>
